@@ -27,6 +27,32 @@ public class Camping extends ExtraHotelero{
         this.resto = resto;
     }
 
+    public Integer getCantidadCarpas() {
+        return cantidadCarpas;
+    }
+
+    public void setCantidadCarpas(Integer cantidadCarpas) {
+        this.cantidadCarpas = cantidadCarpas;
+    }
+
+    public Integer getCantidadBanios() {
+        return cantidadBanios;
+    }
+
+    public void setCantidadBanios(Integer cantidadBanios) {
+        this.cantidadBanios = cantidadBanios;
+    }
+
+    public Boolean getResto() {
+        return resto;
+    }
+
+    public void setResto(Boolean resto) {
+        this.resto = resto;
+    }
+
+    
+    
     @Override
     public String toString() {
         return "Camping{" + "cantidadCarpas=" + cantidadCarpas + ", cantidadBanios=" + cantidadBanios + ", resto=" + resto + '}';

@@ -1,6 +1,5 @@
 package entidades;
 public abstract class Alojamiento {
-    //nombre, una dirección, una localidad y un gerente encargado del lugar.
     protected String nombre;
     protected String direccion;
     protected String localidad;
